@@ -35,13 +35,20 @@ const responsive = {
                 <div className="footer-section">
                     <Carousel responsive={responsive} infinite={true} className="skills-slider">
                         <div className="item1">
+                          <a href="https://www.linkedin.com/in/matt-dudman95/">
                         <FontAwesomeIcon icon={faLinkedinIn} size="3x" />
+                        </a>
                         </div>
                         <div className="item2">
+                        <a href="https://github.com/atypicalbitter">
                         <FontAwesomeIcon icon={faGithub} size="3x" />
+                        </a>
                         </div>
+
                         <div className="item3">
+                        <a href="mailto:mattdudman95@googlemail.com">
                         <FontAwesomeIcon icon={faEnvelope} size="3x" />
+                        </a>
                         </div>
                     </Carousel>
                 </div>

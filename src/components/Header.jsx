@@ -46,11 +46,13 @@ return (
                 <span className="tagline">Welcome to my portfolio</span>
                 <h1>{`Hi! I'm Matt`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                 <p>I'm an enthusiastic learner with a keen interest in graphic design and video editing, skills that I've honed through self-teaching. Currently delving into the world of Front End Web Development, I'm passionate about crafting digital experiences that are not only visually appealing but also user-friendly. My aspirations extend beyond the realm of code as I look forward to transitioning into UX/UI design—a field where I see my future unfolding. Being a creative soul, I thrive on feedback and enjoy engaging in conversations that spark innovative ideas and perspectives.</p>
-                <button onClick={() => console.log('connect')}>Let's connect
+                <a href="https://drive.google.com/file/d/1fbXKDSydTQJSFxIxQXdGgBbEVr7NM-R0/view?usp=sharing" target="_blank">
+                <button>Read my CV here!
                 </button>
+                </a>
             </Col>
             <Col xs={12} md={6} xl={5}>
-                <img src='src/assets/Images/HeaderImage.png' alt="Header Image"></img>
+                <img src='src/assets/Images/1699476215427.jpeg' alt="Header Image"></img>
             </Col>
         </Row>
     </Container>

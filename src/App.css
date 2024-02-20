@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 body {
-  background-color: #2e2c2c !important;
+  background-color: #818181 !important;
   color: #ffebcd !important;
 }
 
@@ -57,4 +57,38 @@ color: blanchedalmond !important;
 
 .form-label{
   font-size: 20px;
+}
+
+.align-items-center img {
+  border-radius: 120px 30px;
+  max-width: 90%;
+}
+
+img {
+max-width: 70%;
+border-radius: 50px;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  font-size: 40px !important;
+  color: blanchedalmond !important;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+border-style: none !important;
+  text-decoration: none !important;
+  font-size: 40px !important;
+  color: black !important;
+}
+
+.projectcard {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.card {
+  background: none !important;
+  border-style: none !important;
+  align-items: center !important;
+  width: 400px;
 }

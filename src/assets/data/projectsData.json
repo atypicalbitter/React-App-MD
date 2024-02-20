@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Daily Planner Web Application",
+      "deployedVersion": "https://bena251.github.io/Bootcamp-Group-Project/",
+      "githubRepository": "https://github.com/atypicalbitter/edX-Group-Project",
+      "imageSrc": "src/assets/Images/DailyAssistant.png"
+    },
+
+    {
+        "title": "Password Generator",
+        "deployedVersion": "https://atypicalbitter.github.io/Password-Generator-MD/",
+        "githubRepository": "hhttps://github.com/atypicalbitter/Password-Generator-MD",
+        "imageSrc": "src/assets/Images/PWG.png"
+      }
+  ]
+  
