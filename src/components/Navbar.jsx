@@ -8,7 +8,7 @@ function Mynav() {
     const [activeLink, setActiveLink] = useState('home')
   return (
     <div>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar>
         <Container>
           <Navbar.Brand href="#home">Matt Dudman</Navbar.Brand>
           <Nav className="me-auto">
