@@ -2,7 +2,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import React from 'react';
 
-function MyProjects() {
+function Projects() {
   return (
     <Tabs
       defaultActiveKey="profile"
@@ -32,6 +32,6 @@ function MyProjects() {
   );
 }
 
-export default MyProjects;
+export default Projects;
 
 
