@@ -28,28 +28,23 @@ h1, h2, h3, h4, h5, h6{
 }
 body {
   background-color: #2e2c2c !important;
-  color: blanchedalmond !important;
+  color: #ffebcd !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @keyframes updown {
+  0% {
+      transform: translateY(-20px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+      transform: translateY(20px);
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  100% {
+      transform: translateY(-20px);
   }
 }
+.txt-rotate > .wrap {
+border-right: 0.08em solid #666;
+} */
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
+
