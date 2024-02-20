@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Mynav from './components/Navbar'
 import Header from './components/Header'
+import Skills from './components/Skills'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -14,6 +15,7 @@ function App() {
     <>
 <Mynav />
 <Header />
+<Skills />
     </>
   )
 }
