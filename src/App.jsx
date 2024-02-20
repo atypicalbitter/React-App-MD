@@ -8,6 +8,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProjectGallery from './components/ProjectGallery'
+import { Router } from 'react-router-dom'
 
 
 
@@ -15,14 +16,14 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <Router>
 <Mynav />
 <Header />
 <Skills />
 <MyProjects />
 <Contact />
 <Footer />
-    </>
+    </Router>
   )
 }
 
