@@ -6,22 +6,27 @@ function MyProjects() {
   return (
     <Tabs
       defaultActiveKey="profile"
-      id="justify-tab-example"
+      id="tab-example"
       className="mb-3"
       justify
     >
-      <Tab eventKey="home" title="Home">
-        Tab content for Home
+      <Tab eventKey="1" title="Project 1">
+        <h2>This is my first project</h2>
+<img src='src/assets/Images/IMG1.png'></img>
       </Tab>
-      <Tab eventKey="profile" title="Profile">
-        Tab content for Profile
+      <Tab eventKey="2" title="Project 2">
+      <h2>This is my second project</h2>
+<img src='src/assets/Images/IMG2.png'></img>
       </Tab>
-      <Tab eventKey="longer-tab" title="Loooonger Tab">
-        Tab content for Loooonger Tab
+      <Tab eventKey="3" title="Project 3">
+      <h2>This is my third project</h2>
+<img src='src/assets/Images/IMG3.png'></img>
       </Tab>
-      <Tab eventKey="contact" title="Contact" disabled>
-        Tab content for Contact
+      <Tab eventKey="4" title="Project 4">
+      <h2>This is my fourth project</h2>
+<img src='src/assets/Images/IMG4.png'></img>
       </Tab>
+
     </Tabs>
   );
 }
