@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap"
 // import { ArrowRightCircle } from "react-bootstrap-icons"
 import { useState, useEffect } from "react"
+import Image from "../assets/Images/1699476215427.jpeg";
 
 function Header () {
 return (
@@ -17,7 +18,7 @@ return (
                 </a>
             </Col>
             <Col xs={12} md={6} xl={5}>
-                <img src='src/assets/Images/1699476215427.jpeg' alt="Header Image"></img>
+                <img src={Image} alt="Header Image"></img>
             </Col>
         </Row>
     </Container>
