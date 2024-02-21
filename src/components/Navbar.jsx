@@ -10,7 +10,7 @@ function Mynav() {
     <div>
       <Navbar>
         <Container>
-          <Navbar.Brand href="#home">Matt Dudman</Navbar.Brand>
+          <Navbar.Brand href="#home"></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#aboutme">About Me</Nav.Link>

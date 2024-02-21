@@ -13,17 +13,25 @@ nav.navbar {
   width: 100%;
   z-index: 1000;
   margin-bottom: 30px;
-
 }
 
+.navbar-expand .navbar-nav .nav-link {
+  padding-left: none !important;
+  align-items: center !important;
+}
+
+
 a.nav-link{
-align-items: center;
+  display: flex;
+align-items: center !important;
+justify-content: center !important;
 color: blanchedalmond;
+padding-bottom: 20px !important;
 }
 
 
 a.navbar-brand {
-font-size: 30px;
+font-size: 80px;
 color: blanchedalmond;
 }
 
@@ -72,7 +80,7 @@ border-radius: 50px;
 .nav-link {
   text-decoration: none !important;
   font-size: 40px !important;
-  color: blanchedalmond !important;
+  color: blanchedalmond !important; 
 }
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
 border-style: none !important;
@@ -91,4 +99,23 @@ border-style: none !important;
   border-style: none !important;
   align-items: center !important;
   width: 400px;
+}
+
+.navbar, .container {
+align-items: center !important;
+justify-content: center !important;
+}
+
+
+.navbar>.container {
+  display: grid !important;
+}
+
+li.nav-item {
+  font-style: none !important;
+}
+
+.nav-justified .nav-item .nav-link {
+  background-color: transparent !important;
+  border-style: none !important;
 }

@@ -6,7 +6,7 @@ function Projects() {
   return (
     <Tabs
       defaultActiveKey="profile"
-      id="tab-example"
+      id="projects"
       className="mb-3"
       justify
     >
