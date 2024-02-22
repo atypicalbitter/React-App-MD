@@ -1,6 +1,8 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import React from 'react';
+import Image3 from '../assets/Images/DailyAssistant.png'
+import Image2 from '../assets/Images/PWG.png'
 
 function Projects() {
   return (
@@ -16,7 +18,7 @@ function Projects() {
       <a href="https://github.com/atypicalbitter/edX-Group-Project" target="_blank" rel="noopener noreferrer">
       <h4>Link to GitHub Repo</h4></a>
       <a href="https://bena251.github.io/Bootcamp-Group-Project/" target="_blank" rel="noopener noreferrer">
-        <img src='src/assets/Images/DailyAssistant.png' alt="Project Image" /></a>
+        <img src= {Image3} alt="Project Image" /></a>
       </Tab>
 
       <Tab eventKey="2" title="Password Generator">
@@ -24,7 +26,7 @@ function Projects() {
       <a href="https://github.com/atypicalbitter/Password-Generator-MD" target="_blank" rel="noopener noreferrer">
       <h4>Link to GitHub Repo</h4></a>
       <a href="https://atypicalbitter.github.io/Password-Generator-MD/" target="_blank" rel="noopener noreferrer">
-        <img src='src/assets/Images/PWG.png' alt="Project Image" /></a>
+        <img src={Image2} alt="Project Image" /></a>
       </Tab>
 
     </Tabs>
